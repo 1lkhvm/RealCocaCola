@@ -1,0 +1,144 @@
+.cards {
+    width: 100%;
+
+
+    .muskitior {
+        .sol1 {
+            display: flex;
+            width: 100%;
+
+
+            div {
+                overflow: hidden;
+
+                img {
+                    height: 100%;
+                    transition: 1.6s;
+                }
+
+                img:hover {
+                    transform: scale(1.1);
+
+                }
+            }
+
+
+            .altalta {
+                display: flex;
+                flex-direction: column; 
+                overflow: hidden;
+
+                img {
+                    height: 50%;
+                    transition: 1.6s;
+                    
+                    
+                }
+
+                img:hover {
+                    transform: scale(1.1);
+
+                }
+            }
+        }
+
+        .yanyana3 {
+            display: flex;
+            overflow: hidden;
+            align-items: center;
+
+            div {
+                display: flex;
+                overflow: hidden;
+
+                img {
+
+                    transition: 1.6s;
+                }
+
+                img:hover {
+                    transform: scale(1.1);
+
+                }
+
+            }
+
+        }
+    }
+
+    .altalta1{
+        display:none
+    }
+
+    @media only screen and (max-width: 600px) {
+        .muskitior {display: flex;
+            flex-direction: column;
+            .sol1 {
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+    
+    
+                div {display: flex;
+                    overflow: hidden;
+    
+                    img {
+                        height: 100%;
+                        transition: 1.6s;
+                    }
+    
+                    img:hover {
+                        transform: scale(1.1);
+    
+                    }
+                }
+    
+    
+                .altalta {
+                    display: flex;
+                    flex-direction: column;
+                    overflow: hidden;
+    
+                    img {
+                        height: 50%;
+                        transition: 1.6s;
+                    }
+    
+                    img:hover {
+                        transform: scale(1.1);
+    
+                    }
+                }
+            }
+    
+            .yanyana3 {
+                display: none;
+                overflow: hidden;
+                align-items: center;
+                
+    
+                div {
+                    display: none;
+                    overflow: hidden;
+    
+                    img {
+    
+                        transition: 1.6s;
+                    }
+    
+                    img:hover {
+                        transform: scale(1.1);
+    
+                    }
+    
+                }
+    
+            }
+        }
+    
+        .altalta1{
+            display: flex !important;
+            flex-direction: column;
+            div{display: flex;}
+    
+    }}}
